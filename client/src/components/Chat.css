@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.ChatRoom_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #549ccc;
+}
+
+.ChatRoom_Header svg {
+  width: 4rem;
+}
+
+.ChatRoom_Header h1 {
+  font-weight: 900;
+  font-size: 3.7rem;
+  font-family: 'Permanent Marker';
+}
+
+.ChatRoom_Header .link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ChatRoom_Header a:link,
+.ChatRoom_Header a:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 5rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: black;
+}
+
+.ChatRoom_Header a:hover,
+.ChatRoom_Header a:active {
+  border-bottom: 1px solid black;
+  cursor: crosshair;
+}
+
+.ChatRoom .chats {
+  font-family: 'Noto Sans';
+  height: 92.8vh;
+  border: 2rem solid #549ccc;
+  overflow-y: scroll;
+}
+
+.ChatRoom .chats .content {
+  margin: 2rem 2rem;
+}
+
+.ChatRoom .chats p {
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+  display: inline-block;
+}

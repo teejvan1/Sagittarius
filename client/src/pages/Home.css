@@ -1,0 +1,131 @@
+.Home_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c0addb;
+}
+
+.Home_Header svg {
+  width: 4rem;
+}
+
+.Home_Header h1 {
+  font-weight: 900;
+  font-size: 3.7rem;
+  font-family: 'Permanent Marker';
+}
+
+.Home_Header .link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Home_Header a:link,
+.Home_Header a:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 5rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: black;
+}
+
+.Home_Header a:hover,
+.Home_Header a:active {
+  border-bottom: 1px solid black;
+  cursor: crosshair;
+}
+
+.Homeh1 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  letter-spacing: -0.25rem;
+  text-align: center;
+  background-color: #c0addb;
+  margin-bottom: -1.5rem;
+}
+
+.section1,
+.section2,
+.section3,
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c0addb;
+}
+
+.section1_div,
+.section3_div {
+}
+
+.section1_img,
+.section2_img,
+.section3_img,
+.section4_img {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.section1_img img,
+.section2_img img,
+.section3_img img,
+.section4_img img {
+  width: 80%;
+}
+
+.section1_text,
+.section2_text,
+.section3_text,
+.section4_text {
+  padding: 4rem;
+}
+
+.section1_text p,
+.section2_text p,
+.section3_text p,
+.section4_text p {
+  width: 60rem;
+  font-size: 2rem;
+  line-height: 160%;
+}
+
+.section2 {
+  background-color: white;
+}
+
+.section4 {
+  background-color: white;
+}
+
+.footer {
+  background-color: #c0addb;
+  font-size: 1.7rem;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.footer a:link,
+.footer a:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2.8rem;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 1.3rem;
+  padding-top: 0.33rem;
+  vertical-align: middle;
+  background-color: rgb(224, 224, 224);
+  color: #1199f6;
+}
+
+.footer a:hover,
+.footer a:active {
+  cursor: crosshair;
+}

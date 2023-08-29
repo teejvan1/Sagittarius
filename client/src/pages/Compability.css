@@ -1,0 +1,101 @@
+.Compability_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Compability_Header svg {
+  width: 4rem;
+}
+
+.Compability_Header h1 {
+  font-weight: 900;
+  font-size: 3.7rem;
+  font-family: 'Permanent Marker';
+}
+
+.Compability_Header .link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Compability_Header a:link,
+.Compability_Header a:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 5rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: black;
+}
+
+.Compability_Header a:hover,
+.Compability_Header a:active {
+  border-bottom: 1px solid black;
+  cursor: crosshair;
+}
+
+.Compability {
+  background-color: white;
+}
+
+.Compabilityh1 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  padding-top: 0.7rem;
+  letter-spacing: -0.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.Compability .table-collection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Compability table {
+  font-size: 1.8rem;
+  border-spacing: 2rem;
+  width: 45%;
+  background-color: #ff5eaa;
+  box-shadow: inset 0 2px 2px hsla(0, 0%, 0%, 0.1);
+  box-shadow: 0 -2px 0 hsla(0, 0%, 100%, 0.15);
+  margin: 1.1rem 0 1.1rem 5.1rem;
+}
+
+.Compability table tr th {
+  text-align: left;
+}
+
+.Compability table tr td:first-child {
+  width: 15%;
+}
+
+.Compability table tr td:nth-child(2) {
+  width: 10%;
+}
+
+.Compability table tr td:last-child {
+  width: 25%;
+  text-align: center;
+}
+
+.Compability p {
+  text-align: right;
+  font-size: 1.5rem;
+  padding: 1rem 2.2rem;
+}
+
+.Compability p a:link,
+.Compability p a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.Compability p a:hover,
+.Compability p a:active {
+  color: rgb(58, 58, 58);
+  cursor: crosshair;
+}

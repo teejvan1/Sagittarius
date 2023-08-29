@@ -1,0 +1,107 @@
+.Books_Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a0d4a4;
+}
+
+.Books_Header svg {
+  width: 4rem;
+}
+
+.Books_Header h1 {
+  font-weight: 900;
+  font-size: 3.7rem;
+  font-family: 'Permanent Marker';
+}
+
+.Books_Header .link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Books_Header a:link,
+.Books_Header a:visited {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.5rem 5rem 1rem;
+  font-size: 1.3rem;
+  margin-right: 0.2rem;
+  color: black;
+}
+
+.Books_Header a:hover,
+.Books_Header a:active {
+  border-bottom: 1px solid black;
+  cursor: crosshair;
+}
+
+.Books {
+  background-color: #a0d4a4;
+}
+
+.Booksh1 {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  padding-top: 1rem;
+  letter-spacing: -0.25rem;
+  text-align: center;
+  margin-bottom: -1.5rem;
+  background-color: #a0d4a4;
+}
+
+.books_upload {
+  margin: 5rem auto;
+  font-weight: 500;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 40rem;
+  background-color: #a0d4a4;
+}
+
+.books_upload label {
+  margin-bottom: 1rem;
+}
+
+.books_upload input {
+  padding: 1rem;
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+
+.books_upload button {
+  padding: 1rem;
+  margin-top: 1.4rem;
+  background-color: black;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+}
+
+.books_upload button:hover {
+  cursor: crosshair;
+}
+
+.books_collection {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.book {
+  width: 19%;
+  margin: 4rem;
+  background-color: #907860;
+  height: 53vh;
+  display: flex;
+  align-items: center;
+  padding: 0 3rem;
+  color: black;
+}
