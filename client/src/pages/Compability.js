@@ -1,37 +1,15 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Navbar from '../components/Navbar'
+import Heading from '../components/Heading'
 
 import('./Compability.css')
 
 function Compatibility() {
   return (
     <div className='Compability'>
-      <div className='Compability_Header'>
-        <svg
-          xmlns='http://www.w3.org/2000/svg'
-          fill='none'
-          viewBox='0 0 24 24'
-          stroke-width='1.5'
-          stroke='currentColor'
-          class='w-6 h-6'
-        >
-          <path
-            stroke-linecap='round'
-            stroke-linejoin='round'
-            d='M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25'
-          />
-        </svg>
-
-        <h1>Sagittarius</h1>
-
-        <div className='link-container'>
-          <Link to='/'>HOME</Link>
-          <Link to='/books'>BOOKS</Link>
-          <Link to='/compatibility'>COMPATIBILITY</Link>
-          <Link to='/chatroom'>CHATROOM</Link>
-        </div>
-      </div>
-      <h1 className='Compabilityh1'>Sagittarius soulmate compability</h1>
+      <Navbar />
+      <Heading text='Sagittarius soulmate compability' marginTop='1.2rem' />
 
       <div className='table-collection'>
         <table>
@@ -408,9 +386,9 @@ function Compatibility() {
       </div>
 
       <p>
-        For more information please visit :-&nbsp;
+        For more information,
         <a href='https://i.thehoroscope.co/sagittarius-soulmate-compatibility-whos-their-lifetime-partner/'>
-          https://i.thehoroscope.co/sagittarius-soulmate-compatibility-whos-their-lifetime-partner/
+          &nbsp;click here
         </a>
       </p>
     </div>

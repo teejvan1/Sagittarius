@@ -1,0 +1,55 @@
+.Header {
+  background-color: #4e9cb5;
+}
+
+.Header_container {
+  margin: 0 auto;
+  display: flex;
+  max-width: 132rem;
+  justify-content: space-between;
+  position: relative;
+}
+
+@font-face {
+  font-family: 'The Smile';
+  src: url('../fonts/TheSmile.otf') format('opentype');
+}
+
+.Header .logoLink {
+  text-decoration: none;
+}
+
+.Header h1 {
+  font-size: 3rem;
+  padding: 0.4rem 0;
+  color: rgb(38, 42, 59);
+  display: flex;
+  align-items: center;
+  font-family: 'The Smile', serif;
+}
+
+.Header h1 img {
+  width: 3.6rem;
+}
+
+.Header .link-container {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.Header .navlink:link,
+.Header .navlink:visited {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  color: #262a3b;
+  font-size: 1.6rem;
+  margin-left: 3.2rem;
+  padding: 0 1.2rem;
+}
+
+.Header .navlink:hover,
+.Header .navlink:active {
+  color: #777986;
+}

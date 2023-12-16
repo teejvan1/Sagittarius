@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
+const { ObjectId } = mongoose.Schema.Types
 
-const Book = mongoose.model('Book', {
+const bookSchema = new mongoose.Schema({
   name: {
     type: String,
     required: true,
@@ -10,6 +11,14 @@ const Book = mongoose.model('Book', {
     type: String,
     required: true,
   },
+  postedBy: {
+    type: ObjectId,
+    ref: 'User',
+  },
+  upvotes: [{ type: ObjectId, ref: 'User' }],
+  downvotes: [{ type: ObjectId, ref: 'User' }],
 })
+
+const Book = mongoose.model('Book', bookSchema)
 
 module.exports = Book

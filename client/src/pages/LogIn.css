@@ -1,0 +1,91 @@
+.LogIn {
+  display: flex;
+}
+
+.LogIn .left {
+  width: 65%;
+  height: calc(100vh - 58.1px);
+}
+
+.LogIn .right {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  background-color: #efe7df;
+}
+
+.LogIn .left img {
+  height: 100%;
+  width: 100%;
+}
+
+.LogIn .right p {
+  font-size: 4.8rem;
+  font-weight: 500;
+  text-align: center;
+  width: 19.2rem;
+  margin: 0 auto;
+  margin-top: 9.6rem;
+  margin-bottom: 6.4rem;
+  color: #af885f;
+}
+
+.LogIn .right input {
+  color: #c3c5c6;
+  background-color: #2e3234;
+  padding: 1.2rem 3.2rem;
+  width: 70%;
+  margin: 0 auto 3.2rem;
+  border-radius: 20rem;
+}
+
+.LogIn .right input:focus {
+  outline: none;
+}
+
+.LogIn .right input::placeholder {
+  color: #c3c5c6;
+}
+
+.LogIn .right button {
+  font-size: 2rem;
+  color: #f2ecf5;
+  background-color: #af885f;
+  width: 40%;
+  padding: 0.8rem 0;
+  border-radius: 20rem;
+  margin: 3.2rem auto 4.8rem;
+  border: 1px solid #af885f;
+  cursor: pointer;
+}
+
+.LogIn .right button:hover {
+  background-color: #785e41;
+}
+
+.LogIn .right h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.LogIn .right h5 a:link,
+.LogIn .right h5 a:visited {
+  text-decoration: none;
+  color: #af885f;
+}
+
+.LogIn .right h5 a:hover,
+.LogIn .right h5 a:active {
+  color: #785e41;
+}
+
+.LogIn .right span {
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid #af885f;
+}
+
+.LogIn .right span:hover {
+  border-bottom: 1px solid #1d2c36;
+}
