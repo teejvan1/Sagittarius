@@ -170,7 +170,7 @@ function Books() {
   return (
     <div className='Books'>
       <Navbar />
-      <Heading text='Share your favorite books' bg='#4e9cb5' />
+      <Heading text='Share your favorite books' bg='#14B694' />
       <form className='books_upload' onSubmit={e => addBook(e)}>
         <label htmlFor='name'> Name of the book</label>
         <input

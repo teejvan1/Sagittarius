@@ -14,7 +14,7 @@ function Home() {
     <div className='Home'>
       <Navbar />
 
-      <Heading text='Welcome to the world of Sagittarians' bg='#4e9cb5' />
+      <Heading text='Welcome to the world of Sagittarians' bg='#14B694' />
 
       <div className='section1_container'>
         <section className='section1'>

@@ -1,6 +1,6 @@
 .Home .section1_container,
 .Home .section3_container {
-  background-color: #4e9cb5;
+  background-color: #14b694;
 }
 
 .Home .section2_container,
@@ -70,19 +70,19 @@
 }
 
 .Home .section1 {
-  background-color: #4e9cb5;
+  background-color: #14b694;
 }
 
 .Home .section3 {
-  background-color: #4e9cb5;
+  background-color: #14b694;
 }
 
 .Home .footer {
   font-size: 1.6rem;
-  background-color: #4e9cb5;
+  background-color: #14b694;
   padding: 1.6rem 0;
   text-align: center;
-  color: white;
+  color: #333;
   padding-right: 6.4rem;
 }
 
@@ -97,9 +97,10 @@
   padding: 0.4rem;
   vertical-align: middle;
   background-color: rgb(224, 224, 224);
-  color: #1199f6;
+  color: #4e9cb5;
 }
 
 .Home .footer a:hover,
 .Home .footer a:active {
+  color: #327ccb;
 }

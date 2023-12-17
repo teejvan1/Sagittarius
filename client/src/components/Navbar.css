@@ -1,5 +1,5 @@
 .Header {
-  background-color: #4e9cb5;
+  background-color: #14b694;
 }
 
 .Header_container {
@@ -22,7 +22,7 @@
 .Header h1 {
   font-size: 3rem;
   padding: 0.4rem 0;
-  color: rgb(38, 42, 59);
+  color: #cf466f;
   display: flex;
   align-items: center;
   font-family: 'The Smile', serif;
@@ -43,7 +43,7 @@
   text-decoration: none;
   display: inline-block;
   font-weight: 600;
-  color: #262a3b;
+  color: #cf466f;
   font-size: 1.6rem;
   margin-left: 3.2rem;
   padding: 0 1.2rem;
@@ -51,5 +51,5 @@
 
 .Header .navlink:hover,
 .Header .navlink:active {
-  color: #777986;
+  color: #d1b4b3;
 }

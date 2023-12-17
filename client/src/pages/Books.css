@@ -1,5 +1,5 @@
 .Books {
-  background-color: #4e9cb5;
+  background-color: #14b694;
   color: #333;
 }
 
@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   max-width: 38.4rem;
-  background-color: #4e9cb5;
+  background-color: #14b694;
 }
 
 .Books .books_upload label {
@@ -24,12 +24,17 @@
   outline: none;
   border: none;
   border-radius: 3px;
+  color: #707070;
+}
+
+.Books .books_upload input::placeholder {
+  color: #707070;
 }
 
 .Books .books_upload button {
   padding: 1.2rem;
   margin-top: 1.6rem;
-  background-color: #333;
+  background-color: #cf466f;
   color: white;
   font-size: 1.6rem;
   border-radius: 4px;
@@ -38,7 +43,7 @@
 }
 
 .Books .books_upload button:hover {
-  color: rgb(209, 209, 209);
+  color: #cccccc;
 }
 
 .Books .books_collection {
@@ -59,7 +64,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 3px;
-  background-color: #14b694;
+  background-color: #d1b4b3;
 }
 
 .Books .book h1 {

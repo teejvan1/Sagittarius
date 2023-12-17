@@ -29,6 +29,7 @@
   width: 98%;
   border: 1px solid #c4c4c4;
   border-radius: 3px;
+  background-color: #d1b4b3;
 }
 
 .Compability table tr th {
@@ -59,7 +60,7 @@
 
 .Compability p a:link,
 .Compability p a:visited {
-  color: blue;
+  color: #1199f6;
   text-decoration: none;
 }
 
