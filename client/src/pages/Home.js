@@ -93,7 +93,7 @@ function Home() {
       </div>
 
       <footer className='footer'>
-        Contact Us :-
+        Follow us:
         <a href='https://www.facebook.com/sagittarius1111'>
           <ion-icon name='logo-facebook'></ion-icon>
         </a>

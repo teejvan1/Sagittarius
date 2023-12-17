@@ -13,7 +13,8 @@ const LogIn = () => {
 
   const { state, dispatch } = useContext(UserContext)
 
-  const postData = () => {
+  const postData = e => {
+    e.preventDefault()
     fetch('/login', {
       method: 'post',
       headers: {
@@ -47,34 +48,37 @@ const LogIn = () => {
         <div className='left'>
           <img src={loginImg} alt='' />
         </div>
-        <div className='right'>
+        <form className='right' onSubmit={e => postData(e)}>
           <p>USER LOGIN</p>
           <input
+            id='email'
             type='text'
             placeholder='Email'
             value={email}
             required
+            autoComplete='off'
             onChange={e => {
               setEmail(e.target.value)
             }}
           />
           <input
+            id='password'
             type='text'
             placeholder='Password'
             value={password}
             required
-            autocomplete='off'
+            autoComplete='off'
             onChange={e => {
               setPassword(e.target.value)
             }}
           />
-          <button onClick={() => postData()}>LOGIN</button>
+          <button>LOGIN</button>
           <h5>
             <Link to='/signup'>
               <span>Create Account</span>
             </Link>
           </h5>
-        </div>
+        </form>
       </div>
     </>
   )

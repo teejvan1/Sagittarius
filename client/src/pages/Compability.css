@@ -4,14 +4,31 @@
   margin-top: 1.2rem;
 }
 
+.Compability .table-container {
+  width: 33.33%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+
+.Compability .table-container:first-child {
+  margin-top: 1.2rem;
+}
+
+.Compability .table-container:nth-child(2) {
+  margin-top: 1.2rem;
+}
+
+.Compability .table-container:nth-child(3) {
+  margin-top: 1.2rem;
+}
+
 .Compability table {
   font-size: 1.8rem;
-  border-spacing: 2rem;
-  width: 45%;
-  margin: 1.2rem 0 1.2rem 4.8rem;
-  border-radius: 3px;
+  border-spacing: 1.6rem;
+  width: 98%;
   border: 1px solid #c4c4c4;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+  border-radius: 3px;
 }
 
 .Compability table tr th {
@@ -20,17 +37,17 @@
 
 .Compability table tr td:first-child {
   font-family: 'Noto Sans', sans-serif;
-  width: 15%;
+  width: 33.33%;
 }
 
 .Compability table tr td:nth-child(2) {
   font-family: 'Noto Sans', sans-serif;
-  width: 10%;
+  width: 33.33%;
 }
 
 .Compability table tr td:last-child {
   font-family: 'Noto Sans', sans-serif;
-  width: 25%;
+  width: 33.33%;
   text-align: center;
 }
 

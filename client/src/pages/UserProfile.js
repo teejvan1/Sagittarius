@@ -47,9 +47,11 @@ const UserProfile = () => {
       <div className='books_collection'>
         {userProfile
           ? userProfile.books.map(item => (
-              <div className='book'>
-                <h1>{item.name}</h1>
-                <h2>by {item.author}</h2>
+              <div key={item._id} className='book_space'>
+                <div className='book'>
+                  <h1>{item.name}</h1>
+                  <h2>by {item.author}</h2>
+                </div>
               </div>
             ))
           : 'loading...'}

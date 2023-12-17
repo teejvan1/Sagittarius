@@ -11,6 +11,7 @@
 
 .UserProfile .card .details {
   border: 1px solid black;
+  border-radius: 3px;
 }
 
 .UserProfile .card h1 {
@@ -36,21 +37,34 @@
   background-color: white;
 }
 
+.UserProfile .books_collection .book_space {
+  width: 25%;
+}
+
 .UserProfile .book {
-  width: 19%;
-  margin: 4.8rem;
-  border: 4px solid #4e9cb5;
-  height: 53vh;
+  width: 70%;
+  margin: 4.8rem auto;
+  border: 1px solid black;
+  height: 38.4rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  padding: 3.2rem 2.4rem 0;
+  border-radius: 3px;
 }
 
 .UserProfile .book h1 {
   font-size: 2.4rem;
+  flex-grow: 4;
+  padding-left: 1.2rem;
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 .UserProfile .book h2 {
   text-align: right;
+  flex-grow: 1.7;
+  padding-right: 1.2rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }

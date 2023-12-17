@@ -46,7 +46,8 @@ const SignUp = () => {
   const [mbti, setMbti] = useState('')
   const [sunsign, setSunsign] = useState('')
 
-  const postData = () => {
+  const postData = e => {
+    e.preventDefault()
     fetch('/signup', {
       method: 'post',
       headers: {
@@ -76,7 +77,7 @@ const SignUp = () => {
     <>
       <Navbar />
       <div className='SignUp'>
-        <div className='signup-card'>
+        <form className='signup-card' onSubmit={e => postData(e)}>
           <p className='welcome'>Welcome aboard</p>
           <label htmlFor='name'>Name</label>
           <input
@@ -124,10 +125,14 @@ const SignUp = () => {
               setMbti(e.target.value)
             }}
           >
+            <option value=''>Choose your mbti personality</option>
             {mbtiList.map(mbti => (
               <option value={mbti.toLowerCase()}>{mbti}</option>
             ))}
           </select>
+          <Link className='mbti' to='/mbti'>
+            Know more about MBTI
+          </Link>
           <label htmlFor='sunsign'>Sun Sign</label>
           <select
             id='sunsign'
@@ -137,16 +142,17 @@ const SignUp = () => {
               setSunsign(e.target.value)
             }}
           >
+            <option value=''>Choose your Sun Sign</option>
             {sunSignList.map(sunsign => (
               <option value={sunsign.toLowerCase()}>{sunsign}</option>
             ))}
           </select>
-          <button onClick={() => postData()}>SignUp</button>
+          <button>SignUp</button>
           <h5>
             Already have an account?
             <Link to='/login'> &nbsp;Login</Link>
           </h5>
-        </div>
+        </form>
       </div>
     </>
   )

@@ -53,9 +53,11 @@ const Profile = () => {
 
       <div className='books_collection'>
         {data.map(item => (
-          <div className='book'>
-            <h1>{item.name}</h1>
-            <h2>by {item.author}</h2>
+          <div className='book_space'>
+            <div className='book'>
+              <h1>{item.name}</h1>
+              <h2>by {item.author}</h2>
+            </div>
           </div>
         ))}
       </div>

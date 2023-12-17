@@ -9,7 +9,6 @@ import { UserContext } from '../App'
 const MakeFriends = () => {
   const { state, dispatch } = useContext(UserContext)
   const [data, setData] = useState([])
-  console.log(data)
 
   useEffect(() => {
     fetch('/makefriends', {
@@ -17,7 +16,14 @@ const MakeFriends = () => {
     })
       .then(res => res.json())
       .then(result => {
-        setData(result.users)
+        if (state) {
+          const newData = result.users.filter(item => {
+            return item._id !== state._id
+          })
+          setData(newData)
+        } else {
+          setData(result.users)
+        }
       })
   }, [])
   return (
@@ -27,36 +33,38 @@ const MakeFriends = () => {
 
       <div className='alluser'>
         {data.map(item => (
-          <div className='card'>
-            <h1>
-              <Link
-                to={
-                  state
-                    ? item._id !== state._id
-                      ? '/profile/' + item._id
-                      : '/profile'
-                    : '/profile/' + item._id
-                }
-              >
-                {item.name}
-              </Link>
-            </h1>
-            <h2>
-              <Link
-                to={
-                  state
-                    ? item._id !== state._id
-                      ? '/profile/' + item._id
-                      : '/profile'
-                    : '/profile/' + item._id
-                }
-              >
-                {item.mbti.toUpperCase()},{' '}
-                {item.sunsign.charAt(0).toUpperCase() + item.sunsign.slice(1)}
-              </Link>
-            </h2>
+          <div key={item._id} className='card-space'>
+            <div className='card'>
+              <h1>
+                <Link
+                  to={
+                    state
+                      ? item._id !== state._id
+                        ? '/profile/' + item._id
+                        : '/profile'
+                      : '/profile/' + item._id
+                  }
+                >
+                  {item.name}
+                </Link>
+              </h1>
+              <h2>
+                <Link
+                  to={
+                    state
+                      ? item._id !== state._id
+                        ? '/profile/' + item._id
+                        : '/profile'
+                      : '/profile/' + item._id
+                  }
+                >
+                  {item.mbti.toUpperCase()},{' '}
+                  {item.sunsign.charAt(0).toUpperCase() + item.sunsign.slice(1)}
+                </Link>
+              </h2>
 
-            <p>Send message</p>
+              <p>Send message</p>
+            </div>
           </div>
         ))}
       </div>

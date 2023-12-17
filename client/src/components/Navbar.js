@@ -13,37 +13,37 @@ function Header() {
   const renderList = () => {
     if (state) {
       return [
-        <Link className='navlink' to='/'>
+        <Link key='home' className='navlink' to='/'>
           Home
         </Link>,
-        <Link className='navlink' to='/makefriends'>
+        <Link key='makefriends' className='navlink' to='/makefriends'>
           Make Friends
         </Link>,
-        <Link className='navlink' to='/books'>
+        <Link key='books' className='navlink' to='/books'>
           Books
         </Link>,
-        <Link className='navlink' to='/compatibility'>
+        <Link key='compatibility' className='navlink' to='/compatibility'>
           Compatibility
         </Link>,
-        <Link className='navlink' to='/profile'>
+        <Link key='profile' className='navlink' to='/profile'>
           {state.name}
         </Link>,
       ]
     } else {
       return [
-        <Link className='navlink' to='/'>
+        <Link key='home' className='navlink' to='/'>
           Home
         </Link>,
-        <Link className='navlink' to='/makefriends'>
+        <Link key='makefriends' className='navlink' to='/makefriends'>
           Make Friends
         </Link>,
-        <Link className='navlink' to='/books'>
+        <Link key='books' className='navlink' to='/books'>
           Books
         </Link>,
-        <Link className='navlink' to='/compatibility'>
+        <Link key='compatibility' className='navlink' to='/compatibility'>
           Compatibility
         </Link>,
-        <Link className='navlink' to='/login'>
+        <Link key='login' className='navlink' to='/login'>
           LogIn
         </Link>,
       ]

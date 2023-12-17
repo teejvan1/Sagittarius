@@ -55,6 +55,12 @@
   background-color: black;
 }
 
+.SignUp .signup-card .mbti {
+  display: inline-block;
+  margin-left: 2.4rem;
+  color: white;
+}
+
 .SignUp .signup-card button {
   display: block;
   color: white;

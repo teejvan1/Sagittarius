@@ -49,7 +49,7 @@ router.post('/login', (req, res) => {
   User.findOne({ email: email })
     .then(savedUser => {
       if (!savedUser) {
-        return res.status(422).json({ error: 'Invalid email or password' })
+        return res.status(422).json({ error: ' Invalid Email' })
       }
       bcrypt.compare(password, savedUser.password).then(doMatch => {
         if (doMatch) {
@@ -57,7 +57,7 @@ router.post('/login', (req, res) => {
           const { _id, name, email, mbti, sunsign } = savedUser
           res.json({ token, user: { _id, name, email, mbti, sunsign } })
         } else {
-          return res.status(422).json({ error: 'Invalid email or password' })
+          return res.status(422).json({ error: ' Invalid password' })
         }
       })
     })

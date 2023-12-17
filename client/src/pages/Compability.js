@@ -12,377 +12,449 @@ function Compatibility() {
       <Heading text='Sagittarius soulmate compability' marginTop='1.2rem' />
 
       <div className='table-collection'>
-        <table>
-          <tr>
-            <th>Sagittarius & Aries</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Aries</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Taurus</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Below average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Very Strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Taurus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Below average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Very Strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Gemini</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Gemini</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Cancer</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Cancer</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Leo</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Doubtful</td>
-            <td> ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Leo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Doubtful</td>
+                <td> ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Virgo</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Virgo</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Libra</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Libra</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Scorpio</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Scorpio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Sagittarius</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Below Average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Sagittarius</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Below Average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Capricorn</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Below average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Capricorn</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Below average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Aquarius</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Below average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Very strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Below average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Aquarius</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Below average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Very strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Below average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-        <table>
-          <tr>
-            <th>Sagittarius & Pisces</th>
-          </tr>
-          <tr>
-            <td>Emotional connection</td>
-            <td>Doubtful</td>
-            <td> ❤ </td>
-          </tr>
-          <tr>
-            <td>Communication</td>
-            <td>Very Strong</td>
-            <td> ❤ ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Trust & Dependability</td>
-            <td>Average</td>
-            <td> ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Common Values</td>
-            <td>Strong</td>
-            <td> ❤ ❤ ❤ ❤ </td>
-          </tr>
-          <tr>
-            <td>Intimacy & Sex </td>
-            <td>Below average</td>
-            <td> ❤ ❤ </td>
-          </tr>
-        </table>
+        <div className='table-container'>
+          <table>
+            <thead>
+              <tr>
+                <th>Sagittarius & Pisces</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Emotional connection</td>
+                <td>Doubtful</td>
+                <td> ❤ </td>
+              </tr>
+              <tr>
+                <td>Communication</td>
+                <td>Very Strong</td>
+                <td> ❤ ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Trust & Dependability</td>
+                <td>Average</td>
+                <td> ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Common Values</td>
+                <td>Strong</td>
+                <td> ❤ ❤ ❤ ❤ </td>
+              </tr>
+              <tr>
+                <td>Intimacy & Sex </td>
+                <td>Below average</td>
+                <td> ❤ ❤ </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <p>
