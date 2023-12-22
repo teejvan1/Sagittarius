@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon server.js",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "socket": "npm start --prefix socket",
+    "socket": "node index.js --prefix socket",
     "start": "concurrently \"npm run start\" \"npm run socket\""
   },
   "author": "Navneet",
