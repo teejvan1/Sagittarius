@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import './MakeFriends.css'
 import Navbar from '../components/Navbar'
@@ -7,6 +8,7 @@ import Heading from '../components/Heading'
 import { UserContext } from '../App'
 
 const MakeFriends = () => {
+  const navigate = useNavigate()
   const { state, dispatch } = useContext(UserContext)
   const [data, setData] = useState([])
 
@@ -25,7 +27,26 @@ const MakeFriends = () => {
           setData(result.users)
         }
       })
-  }, [])
+  }, [state])
+
+  const handleSend = id => {
+    fetch('/conversations', {
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+        Authorization: 'Bearer ' + localStorage.getItem('jwt'),
+      },
+      body: JSON.stringify({
+        senderId: state._id,
+        receiverId: id,
+      }),
+    })
+      .then(res => res.json())
+      .then(data => {
+        navigate('/chats')
+      })
+      .catch(err => console.log(err))
+  }
   return (
     <div className='MakeFriends'>
       <Navbar />
@@ -63,7 +84,7 @@ const MakeFriends = () => {
                 </Link>
               </h2>
 
-              <p>Send message</p>
+              <p onClick={() => handleSend(item._id)}>Send message</p>
             </div>
           </div>
         ))}

@@ -11,6 +11,7 @@ import Profile from '../src/pages/Profile.js'
 import UserProfile from '../src/pages/UserProfile.js'
 import MakeFriends from '../src/pages/MakeFriends.js'
 import Mbti from '../src/pages/Mbti.js'
+import Messenger from '../src/pages/Messenger.js'
 
 import { reducer, initialState } from './reducers/userReducer'
 export const UserContext = createContext()
@@ -37,6 +38,7 @@ const Routing = () => {
       <Route path='/profile/:userid' exact element={<UserProfile />}></Route>
       <Route path='/makefriends' exact element={<MakeFriends />}></Route>
       <Route path='/mbti' exact element={<Mbti />}></Route>
+      <Route path='/chats' exact element={<Messenger />}></Route>
     </Routes>
   )
 }

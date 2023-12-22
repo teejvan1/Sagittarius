@@ -21,15 +21,8 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(require('./routes/auth'))
 app.use(require('./routes/book'))
-
-// app.use(express.static(path.join(__dirname, '/client/build')))
-
-app.set('view engine', 'hbs')
-
-// app.get('/', (req, res) => {
-//   res.sendFile(path.join(__dirname, '/client/build', 'index.html'))
-//   res.json('hello world')
-// })
+app.use(require('./routes/conversations'))
+app.use(require('./routes/messages'))
 
 if (process.env.NODE_ENV == 'production') {
   app.use(express.static('client/build'))

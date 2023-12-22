@@ -1,0 +1,28 @@
+.Message {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.Message.own {
+  align-items: flex-end;
+}
+
+.Message.own .messageText {
+  background-color: rgb(245, 241, 241);
+  color: black;
+}
+
+.messageTop .user {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.messageTop .text {
+  font-size: 1.6rem;
+  padding: 0.1rem 0 0.8rem;
+}
+
+.messageBottom {
+  font-size: 12px;
+}

@@ -25,6 +25,9 @@ function Header() {
         <Link key='compatibility' className='navlink' to='/compatibility'>
           Compatibility
         </Link>,
+        <Link key='chats' className='navlink' to='/chats'>
+          Chats
+        </Link>,
         <Link key='profile' className='navlink' to='/profile'>
           {state.name}
         </Link>,
