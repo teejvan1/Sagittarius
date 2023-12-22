@@ -28,8 +28,8 @@ app.use(express.urlencoded({ extended: false }))
 
 app.use(require('./routes/auth'))
 app.use(require('./routes/book'))
-app.use(require('./routes/conversations'))
-app.use(require('./routes/messages'))
+app.use(require('./routes/Conversations'))
+app.use(require('./routes/Messages'))
 
 if (process.env.NODE_ENV == 'production') {
   app.use(express.static('client/build'))
