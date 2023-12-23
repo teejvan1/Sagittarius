@@ -32,6 +32,13 @@ router.get('/allbooks', (req, res) => {
   Book.find()
     .populate('postedBy', '_id name')
     .then(books => {
+      books.sort(
+        (a, b) =>
+          b.upvotes.length -
+          b.downvotes.length -
+          (a.upvotes.length - a.downvotes.length)
+      )
+
       res.json({ books })
     })
     .catch(err => {

@@ -89,3 +89,37 @@
 .LogIn .right span:hover {
   border-bottom: 1px solid #1d2c36;
 }
+
+@media only screen and (max-width: 940px) {
+  .LogIn .left {
+    width: 60%;
+  }
+
+  .LogIn .right {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 777px) {
+  .LogIn .left {
+    width: 55%;
+  }
+
+  .LogIn .right {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .LogIn {
+    flex-direction: column;
+  }
+  .LogIn .left {
+    width: 100%;
+    height: auto;
+  }
+
+  .LogIn .right {
+    width: 100%;
+  }
+}

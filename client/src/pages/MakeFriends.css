@@ -52,3 +52,34 @@
   margin: 1.6rem 4.8rem 2.4rem 4.8rem;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 1078px) {
+  .alluser .card-space {
+    width: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 758px) {
+  .alluser .card-space {
+    width: 50%;
+  }
+
+  .alluser .card {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .alluser .card {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .alluser .card-space {
+    width: 100%;
+  }
+  .alluser .card {
+    width: 60%;
+  }
+}

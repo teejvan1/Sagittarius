@@ -34,7 +34,6 @@ const MakeFriends = () => {
       method: 'post',
       headers: {
         'Content-Type': 'application/json',
-        Authorization: 'Bearer ' + localStorage.getItem('jwt'),
       },
       body: JSON.stringify({
         senderId: state._id,
@@ -84,7 +83,9 @@ const MakeFriends = () => {
                 </Link>
               </h2>
 
-              <p onClick={() => handleSend(item._id)}>Send message</p>
+              <p onClick={state ? () => handleSend(item._id) : null}>
+                Send message
+              </p>
             </div>
           </div>
         ))}

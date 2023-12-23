@@ -27,6 +27,7 @@ router.get('/user/:id', (req, res) => {
 router.get('/makefriends', (req, res) => {
   User.find({ sunsign: 'sagittarius' })
     .select('-password')
+    .sort('-createdAt')
     .then(users => {
       res.json({ users })
     })

@@ -68,3 +68,19 @@
 .Compability p a:active {
   color: rgb(74, 74, 251);
 }
+
+@media only screen and (max-width: 1063px) {
+  .Compability .table-container {
+    width: 50%;
+  }
+
+  .Compability .table-container:nth-child(3) {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 718px) {
+  .Compability .table-container {
+    width: 100%;
+  }
+}

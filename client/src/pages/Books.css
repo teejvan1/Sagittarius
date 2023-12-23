@@ -120,3 +120,35 @@
   font-size: 1.6rem;
   /* background-color: red; */
 }
+
+@media only screen and (max-width: 1021px) {
+  .Books .books_collection .book_space {
+    width: 33.33%;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .Books .books_collection .book_space {
+    width: 50%;
+  }
+
+  .Books .book {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .Books .books_collection .book_space {
+    width: 100%;
+  }
+
+  .Books .book {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Books .book {
+    width: 45%;
+  }
+}

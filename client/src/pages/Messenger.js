@@ -22,6 +22,8 @@ const Messenger = () => {
   const scrollRef = useRef()
 
   useEffect(() => {
+    // ws://localhost:4000
+    //https://sagittarius-353a4636ce62.herokuapp.com/
     socket.current = io('https://sagittarius-353a4636ce62.herokuapp.com/')
     socket.current.on('getMessage', data => {
       setArrivalMessage({
@@ -39,7 +41,7 @@ const Messenger = () => {
   }, [arrivalMessage, currentChat])
 
   useEffect(() => {
-    socket.current.emit('addUser', state._id)
+    socket.current.emit('addUser', state?._id)
   }, [state])
 
   useEffect(() => {

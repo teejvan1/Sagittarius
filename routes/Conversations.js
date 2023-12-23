@@ -4,7 +4,7 @@ const router = express.Router()
 const Conversation = require('../models/Conversation')
 const requireLogin = require('../middleware/requireLogin')
 
-router.post('/conversations', requireLogin, async (req, res) => {
+router.post('/conversations', async (req, res) => {
   const newConversation = new Conversation({
     members: [req.body.senderId, req.body.receiverId],
   })

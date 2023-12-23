@@ -53,3 +53,9 @@
   padding: 10px;
   height: 100%;
 }
+
+@media only screen and (max-width: 618px) {
+  .Messenger .messenger-container {
+    height: calc(100vh - 149.6px);
+  }
+}

@@ -53,3 +53,24 @@
 .Header .navlink:active {
   color: #d1b4b3;
 }
+
+@media only screen and (max-width: 732px) {
+  .Header_container {
+    flex-direction: column;
+  }
+  .Header .link-container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 618px) {
+  .Header .link-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .Header .navlink:link,
+  .Header .navlink:visited {
+    text-decoration: underline;
+    margin-left: 0.8rem;
+  }
+}
