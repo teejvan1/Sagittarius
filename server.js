@@ -4,7 +4,11 @@ const http = require('http')
 const socketIO = require('socket.io')
 const app = express()
 const server = http.createServer(app)
-const io = socketIO(server)
+const io = socketIO(server, {
+  cors: {
+    origin: 'https://sagittarius-353a4636ce62.herokuapp.com/',
+  },
+})
 // {cors: {
 //   origin: 'http://localhost:3000',
 // }}
