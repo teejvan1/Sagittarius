@@ -4,11 +4,8 @@ const http = require('http')
 const socketIO = require('socket.io')
 const app = express()
 const server = http.createServer(app)
-const io = socketIO(server, {
-  cors: {
-    origin: 'https://sagittarius-353a4636ce62.herokuapp.com/',
-  },
-})
+// 'https://sagittarius-353a4636ce62.herokuapp.com
+const io = socketIO(server)
 // {cors: {
 //   origin: 'http://localhost:3000',
 // }}
@@ -25,11 +22,10 @@ mongoose.connection.on('error', () => {
   console.log('err connecting', err)
 })
 
-app.use(require('./routes/user'))
-
 app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: true }))
 
+app.use(require('./routes/user'))
 app.use(require('./routes/auth'))
 app.use(require('./routes/book'))
 app.use(require('./routes/Conversations'))

@@ -4,16 +4,28 @@ const router = express.Router()
 const Conversation = require('../models/Conversation')
 const requireLogin = require('../middleware/requireLogin')
 
-router.post('/conversations', async (req, res) => {
-  const newConversation = new Conversation({
-    members: [req.body.senderId, req.body.receiverId],
-  })
-  try {
-    const savedConversation = await newConversation.save()
-    res.status(200).json(savedConversation)
-  } catch (err) {
-    res.status(500).json(err)
-  }
+router.post('/conversations', (req, res) => {
+  const { senderId, receiverId } = req.body
+  Conversation.findOne({ members: [senderId, receiverId] })
+    .then(existingConversation => {
+      if (existingConversation) {
+        return res.json({ message: 'Conversation already exists' })
+      }
+      const newConversation = new Conversation({
+        members: [senderId, receiverId],
+      })
+      newConversation
+        .save()
+        .then(savedConversation => {
+          res.json(savedConversation)
+        })
+        .catch(err => {
+          console.log(err)
+        })
+    })
+    .catch(err => {
+      console.log(err)
+    })
 })
 
 router.get('/conversations/:userId', async (req, res) => {
