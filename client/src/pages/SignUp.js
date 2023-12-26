@@ -79,12 +79,12 @@ const SignUp = () => {
       <div className='SignUp'>
         <form className='signup-card' onSubmit={e => postData(e)}>
           <p className='welcome'>Welcome aboard</p>
-          <label htmlFor='name'>Name</label>
+          <label htmlFor='name'>First Name</label>
           <input
             id='name'
             type='text'
             value={name}
-            placeholder='Your name'
+            placeholder='Your first name'
             required
             autocomplete='off'
             onChange={e => {
